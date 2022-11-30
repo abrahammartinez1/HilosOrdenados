@@ -8,14 +8,14 @@ public class TareaHilo4 extends Clase1 implements Runnable {
 
     @Override
     public void run() {
-//        while (!hilo1fin) {
-//            System.out.println("SOY EL HILO --> " + this.nombreHilo);
-//            try {
-//                Thread.sleep(1000);
-//            } catch (InterruptedException e) {
-//                throw new RuntimeException(e);
-//            }
-//        }
+        for (Integer i=0;i<5;i++){
+            try {
+                System.out.println("EJECUTANDO HILO --> " + this.nombreHilo);
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
         System.out.println("FIN HILO --> " + this.nombreHilo);
     }
 }
