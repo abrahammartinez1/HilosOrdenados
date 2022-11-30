@@ -1,3 +1,7 @@
+
+Autor: Abraham Martínez 
+Clase: Programación Concurrente
+
 Realiza una aplicación que ejecute 4 hilos 
 de forma que se ejecuten de forma ordenada 
 uno detrás de otro esperando cada uno a que 
