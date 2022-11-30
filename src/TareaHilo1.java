@@ -14,14 +14,6 @@
                     throw new RuntimeException(e);
                 }
             }
-//            while (!hilo1fin) {
-//                System.out.println("SOY EL HILO --> " + this.nombreHilo);
-//                try {
-//                    Thread.sleep(1000);
-//                } catch (InterruptedException e) {
-//                    throw new RuntimeException(e);
-//                }
-//            }
             System.out.println("FIN HILO --> " + this.nombreHilo);
         }
     }
