@@ -1,4 +1,5 @@
-public class TareaHilo2 extends Clase1 implements Runnable {
+public class TareaHilo4 extends Clase1 implements Runnable {
+
     private String nombreHilo = "";
 
     public void nombre(String nom){
@@ -7,7 +8,7 @@ public class TareaHilo2 extends Clase1 implements Runnable {
 
     @Override
     public void run() {
-//        while (otroHilo.isAlive()) {
+//        while (!hilo1fin) {
 //            System.out.println("SOY EL HILO --> " + this.nombreHilo);
 //            try {
 //                Thread.sleep(1000);
@@ -18,3 +19,4 @@ public class TareaHilo2 extends Clase1 implements Runnable {
         System.out.println("FIN HILO --> " + this.nombreHilo);
     }
 }
+

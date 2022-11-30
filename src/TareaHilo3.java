@@ -1,4 +1,5 @@
-public class TareaHilo2 extends Clase1 implements Runnable {
+public class TareaHilo3 extends Clase1 implements Runnable {
+
     private String nombreHilo = "";
 
     public void nombre(String nom){
