@@ -6,7 +6,7 @@
 
         @Override
         public void run() {
-            for (Integer i=0;i<5;i++){
+            for (Integer i=0;i<5;i++){//Cada segundo durante 5 segundos muestra el mensaje
                 try {
                     System.out.println("EJECUTANDO HILO --> " + this.nombreHilo);
                     Thread.sleep(1000);
